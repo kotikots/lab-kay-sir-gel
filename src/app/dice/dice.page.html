@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Dice Roller</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
+    <div style="font-size: 10rem; font-weight: bold; margin-bottom: 20px;">
+      {{ diceValue }}
+    </div>
+    
+    <ion-button size="large" (click)="rollDice()">
+      Roll Dice
+    </ion-button>
+  </div>
+</ion-content>
